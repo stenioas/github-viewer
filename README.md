@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/stenioas/github-viewer/blob/main/public/logo.svg?raw=true"></p>
+<p align="center" style="background-color:black"><img src="https://github.com/stenioas/github-viewer/blob/main/public/misc/banner-readme.png?raw=true"></p>
 
 <div style="display: flex; align-items:center; justify-content:center; width:100%;">
 	<p align="center" style="max-width: 720px; text-align: justify;">O GH Viewer é uma ferramenta que te ajuda a visualizar os perfis do Github e seus respectivos repositórios de forma simples e rápida.</p>
@@ -49,6 +49,7 @@
 - Memoização
 - Axios
 - REST Api
+- Figma
 
 <h6 id="get-project">
 
@@ -94,6 +95,7 @@ Sinta-se a vontade para:
 ## 👨‍💻 Autor
 
 Stenio Almeida.
+
 [![Linkedin Badge](https://img.shields.io/badge/-stenioas-0A66C2?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/stenioas/)](https://www.linkedin.com/in/stenioas/) [![Gmail Badge](https://img.shields.io/badge/-stenioas-EA4335?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:stenioas@gmail.com)](mailto:stenioas@gmail.com) [![Instagram Badge](https://img.shields.io/badge/-stenioas-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=https://www.instagram.com/stenioas/)](https://www.instagram.com/stenioas/) [![Telegram Badge](https://img.shields.io/badge/-stenioas-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&link=https://t.me/stenioas/)](https://t.me/stenioas/) [![Github Badge](https://img.shields.io/badge/-stenioas-181717?style=for-the-badge&logo=github&logoColor=white&link=https://www.github.com/stenioas)](https://github.com/stenioas)
 
 ## :purple_heart: Obrigado!
