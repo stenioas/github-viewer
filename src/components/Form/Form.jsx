@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 export default function Form() {
@@ -6,7 +5,7 @@ export default function Form() {
 		display: flex;
 		padding: 2rem;
 		background-color: #2d2d2d;
-		border-radius: 0.4rem;
+		border-radius: 0.25rem;
 	`;
 	const Form = styled.form``;
 	const Title = styled.h1`
@@ -23,7 +22,7 @@ export default function Form() {
 		display: block;
 		width: 22.5rem;
 		height: 3rem;
-		border-radius: 0.4rem;
+		border-radius: 0.25rem;
 		border: none;
 		background-color: #f1f1f1;
 		font-size: 1rem;
@@ -45,7 +44,7 @@ export default function Form() {
 		width: 22.5rem;
 		height: 3rem;
 		font-weight: 700;
-		border-radius: 0.4rem;
+		border-radius: 0.25rem;
 		border: none;
 		background-color: #4dffc3;
 		cursor: pointer;
