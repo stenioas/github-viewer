@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+<p align="center" style="background-color:black"><img src="https://github.com/stenioas/github-viewer/blob/main/public/misc/banner-readme.png?raw=true"></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div style="display: flex; align-items:center; justify-content:center; width:100%;">
+	<p align="center" style="max-width: 720px; text-align: justify;">O GH Viewer é uma ferramenta que te ajuda a visualizar os perfis do Github e seus respectivos repositórios de forma simples e rápida.</p>
+</div>
 
-## Available Scripts
+<p align="center">
+	<a href="#features">Funcionalidades</a> •
+	<a href="#technologies">Tecnologias</a> •
+	<a href="#get-project">Obtendo o projeto</a> •
+	<a href="#contributing">Contribuindo</a> •
+	<a href="#author">Autor</a> •
+	<a href="#license">Licensa</a>
+</p>
 
-In the project directory, you can run:
+<hr style="height: 1px">
 
-### `yarn start`
+<p align="center">
+	<img src="https://github.com/stenioas/github-viewer/blob/main/public/misc/login.png?raw=true" alt="Start image" width="400px" />
+	<img src="https://github.com/stenioas/github-viewer/blob/main/public/misc/search.png?raw=true" alt="Cycle image" width="400px" /><br/>
+	<img src="https://github.com/stenioas/github-viewer/blob/main/public/misc/profile.png?raw=true" alt="End cycle image" width="400px" />
+	<img src="https://github.com/stenioas/github-viewer/blob/main/public/misc/profile_1.png?raw=true" alt="LevelUp image" width="400px" /><br/>
+	<img src="https://github.com/stenioas/github-viewer/blob/main/public/misc/repos.png?raw=true" alt="End cycle image" width="400px" />
+	<img src="https://github.com/stenioas/github-viewer/blob/main/public/misc/repos_1.png?raw=true" alt="LevelUp image" width="400px" /><br/>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">🚧 - Projeto em desenvolvimento - 🚧</p>
+<p align="center">Assista ao vídeo preview <a href="https://youtu.be/4g8luHT8TPQ">aqui</a>.</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h6 id="features">
 
-### `yarn test`
+## :sparkles: Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Login na plataforma de forma segura;
+- Barra de pesquisa para perfis;
+- Sidemenu expansível;
+- Visualização de estatísticas de perfil;
+- Visualização de repositórios públicos do perfil.
 
-### `yarn build`
+<h6 id="technologies">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :zap: Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ReactJS
+- Styled Components
+- Componentização
+- React Hooks
+- ContextAPI
+- Memoização
+- Axios
+- REST Api
+- Figma
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h6 id="get-project">
 
-### `yarn eject`
+## :mag: Obtendo o projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Requisitos:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Git
+- NodeJS
+- Yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Clonando o repositório
+$ git clone https://github.com/stenioas/github-viewer.git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Acessando a pasta do projeto
+$ cd github-viewer
 
-## Learn More
+# Instalando as dependências com yarn
+$ yarn
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Executando a aplicação
+$ yarn start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acesse o localhost pelo navegador
+http://localhost:3000
+```
 
-### Code Splitting
+<h6 id="contributing">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## :handshake: Contribuindo
 
-### Analyzing the Bundle Size
+Projeto desenvolvido inicialmente como teste de competências para uma oportunidade no mercado, e como evolução pessoal nas tecnologias aplicadas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Sinta-se a vontade para:
 
-### Making a Progressive Web App
+- :bug: Reportar bugs.
+- :inbox_tray: Enviar PRs para ajudar a resolver os bugs ou adicionar funcionalidades.
+- :star: Todos os tipos de contribuição são muito bem-vindos e apreciados!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<h6 id="author">
 
-### Advanced Configuration
+## 👨‍💻 Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Stenio Almeida.
 
-### Deployment
+[![Linkedin Badge](https://img.shields.io/badge/-stenioas-0A66C2?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/stenioas/)](https://www.linkedin.com/in/stenioas/) [![Gmail Badge](https://img.shields.io/badge/-stenioas-EA4335?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:stenioas@gmail.com)](mailto:stenioas@gmail.com) [![Instagram Badge](https://img.shields.io/badge/-stenioas-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=https://www.instagram.com/stenioas/)](https://www.instagram.com/stenioas/) [![Telegram Badge](https://img.shields.io/badge/-stenioas-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&link=https://t.me/stenioas/)](https://t.me/stenioas/) [![Github Badge](https://img.shields.io/badge/-stenioas-181717?style=for-the-badge&logo=github&logoColor=white&link=https://www.github.com/stenioas)](https://github.com/stenioas)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## :purple_heart: Obrigado!
 
-### `yarn build` fails to minify
+Obrigado por doar um pouco do seu tempo para conhecer o projeto :heart:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h6 id="license">
+
+## :unlock: Licensa
+
+O projeto utiliza a licensa <a href="https://github.com/stenioas/youmove/blob/master/LICENSE">MIT</a>, aproveite, use e modifique como quiser!
