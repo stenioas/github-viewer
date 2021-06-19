@@ -25,7 +25,8 @@
 </p>
 
 <p align="center">🚧 - Projeto em desenvolvimento - 🚧</p>
-<p align="center">Assista ao vídeo preview <a href="https://youtu.be/4g8luHT8TPQ">aqui</a>.</p>
+<p align="center">Link do preview <a href="https://youtu.be/4g8luHT8TPQ">aqui</a>.</p>
+<p align="center">Link do Figma <a href="https://www.figma.com/file/LQhfzdAfgNlhe9axZZKStW/Github-API?node-id=3%3A24">aqui</a>.</p>
 
 <h6 id="features">
 
