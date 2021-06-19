@@ -6,11 +6,13 @@ export default function Form() {
 		display: flex;
 		padding: 2rem;
 		background-color: #2d2d2d;
-		border-radius: 0.5rem;
+		border-radius: 0.4rem;
 	`;
 	const Form = styled.form``;
 	const Title = styled.h1`
+		font-size: 1.2rem;
 		font-weight: 700;
+		text-align: center;
 		color: #fafafa;
 	`;
 	const Fieldset = styled.fieldset`
@@ -21,7 +23,7 @@ export default function Form() {
 		display: block;
 		width: 22.5rem;
 		height: 3rem;
-		border-radius: 0.5rem;
+		border-radius: 0.4rem;
 		border: none;
 		background-color: #f1f1f1;
 		font-size: 1rem;
@@ -34,20 +36,20 @@ export default function Form() {
 	const ForgotPass = styled.a`
 		display: flex;
 		justify-content: flex-end;
-		font-size: 0.75rem;
+		font-size: 0.8rem;
 		color: #fafafa;
-		margin-top: 0.5rem;
+		margin-top: 0.4rem;
 	`;
 	const Button = styled.button`
 		display: block;
 		width: 22.5rem;
 		height: 3rem;
 		font-weight: 700;
-		border-radius: 0.5rem;
+		border-radius: 0.4rem;
 		border: none;
 		background-color: #4dffc3;
 		cursor: pointer;
-		margin-top: 1rem;
+		margin-top: 2rem;
 		transition: 0.2s;
 		&:hover {
 			background-color: #00ffaa;
