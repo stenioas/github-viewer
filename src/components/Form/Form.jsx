@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export default function Form() {
-	const DivForm = styled.div`
+	const Container = styled.div`
 		display: flex;
 		padding: 2rem;
 		background-color: #2d2d2d;
@@ -56,7 +56,7 @@ export default function Form() {
 	`;
 
 	return (
-		<DivForm>
+		<Container>
 			<Form>
 				<Title>LOGIN</Title>
 				<Fieldset>
@@ -66,6 +66,6 @@ export default function Form() {
 				<ForgotPass href="#">Esqueceu a senha?</ForgotPass>
 				<Button type="submit">Entrar</Button>
 			</Form>
-		</DivForm>
+		</Container>
 	);
 }
