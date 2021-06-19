@@ -6,7 +6,7 @@ export default function Form() {
 		display: flex;
 		padding: 2rem;
 		background-color: #2d2d2d;
-		border-radius: 5px;
+		border-radius: 0.5rem;
 	`;
 	const Form = styled.form``;
 	const Title = styled.h1`
@@ -21,7 +21,7 @@ export default function Form() {
 		display: block;
 		width: 22.5rem;
 		height: 3rem;
-		border-radius: 5px;
+		border-radius: 0.5rem;
 		border: none;
 		background-color: #f1f1f1;
 		font-size: 1rem;
@@ -43,11 +43,15 @@ export default function Form() {
 		width: 22.5rem;
 		height: 3rem;
 		font-weight: 700;
-		border-radius: 5px;
+		border-radius: 0.5rem;
 		border: none;
-		background-color: #00ffaa;
+		background-color: #4dffc3;
 		cursor: pointer;
 		margin-top: 1rem;
+		transition: 0.2s;
+		&:hover {
+			background-color: #00ffaa;
+		}
 	`;
 
 	return (
@@ -59,7 +63,7 @@ export default function Form() {
 					<InputPass type="password" placeholder="Senha"></InputPass>
 				</Fieldset>
 				<ForgotPass href="#">Esqueceu a senha?</ForgotPass>
-				<Button type="submit">ENTRAR</Button>
+				<Button type="submit">Entrar</Button>
 			</Form>
 		</DivForm>
 	);
